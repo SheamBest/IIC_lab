@@ -11,12 +11,6 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: '14'
-    - name: Change directory
-      run: cd ..
-    - name: Change directory
-      run: cd ..
-    - name: Change directory
-      run: cd vue
     - name: Install Dependencies
       run: npm install
     - name: Build
