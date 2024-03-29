@@ -12,6 +12,10 @@ jobs:
       with:
         node-version: '14'
     - name: Change directory
+      run: cd ..
+    - name: Change directory
+      run: cd ..
+    - name: Change directory
       run: cd vue
     - name: Install Dependencies
       run: npm install
